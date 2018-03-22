@@ -16,13 +16,13 @@
 ---
 
 ### Data Structures For Pandas
-Series | Data Frames | Panel
---- | --- | ---
-1D array | 2D array | 3D array
-labeled | labeled | labeled
-size-immutable | size-mutable | size-mutable
-value-mutable | value-mutable | value-mutable
-homogenous data | heterogeneous data | heterogeneous data
+| Series | Data Frames | Panel |
+| --- | --- | --- |
+| 1D array | 2D array | 3D array |
+| labeled | labeled | labeled |
+| size-immutable | size-mutable | size-mutable |
+| value-mutable | value-mutable | value-mutable |
+| homogenous data | heterogeneous data | heterogeneous data |
 
 ---
 
@@ -57,28 +57,28 @@ Constructor: `pandas.DataFrame( data, index, columns, dtype, copy)`
 ---
 
 ### Basic Tools
-`axes` | Returns a list of the row axis labels.
-`dtype` | Returns the dtype of the object.
-`empty` | Returns True if series is empty.
-`ndim` | Returns the number of dimensions of the underlying data. (Series: 1, DataFrame: 2, Panel: 3)
-`size` | Returns the number of elements in the underlying data.
-`values` | Returns the Series as ndarray.
-`head(n)` | Returns the first n rows.
-`tail(n)` | Returns the last n rows.
+| `axes` | Returns a list of the row axis labels. |
+| `dtype` | Returns the dtype of the object. |
+| `empty` | Returns True if series is empty. |
+| `ndim` | Returns the number of dimensions of the underlying data. (Series: 1, DataFrame: 2, Panel: 3) |
+| `size` | Returns the number of elements in the underlying data. |
+| `values` | Returns the Series as ndarray. |
+| `head(n)` | Returns the first n rows. |
+| `tail(n)` | Returns the last n rows. |
 
 ---
 
 ### Statistical Tools
-`count(n)` | Number of non-null observations
-`sum(n)` | Sum of values (strings are concatenated)
-`mean(n)` | Mean of Values
-`median(n)` | Median of Values
-`mode(n)` | Mode of values
-`std(n)` | Standard Deviation of the Values
-`min(n)` | Minimum Value
-`max(n)` | Maximum Value
-`abs(n)` | Absolute Value
-`prod(n)` | Product of Values
+| `count(n)` | Number of non-null observations |
+| `sum(n)` | Sum of values (strings are concatenated) |
+| `mean(n)` | Mean of Values |
+| `median(n)` | Median of Values |
+| `mode(n)` | Mode of values |
+| `std(n)` | Standard Deviation of the Values |
+| `min(n)` | Minimum Value |
+| `max(n)` | Maximum Value |
+| `abs(n)` | Absolute Value |
+| `prod(n)` | Product of Values |
 
 **Note**: all methods are pass by reference
 * n is the axis on which the method operates on, the default is 0.
