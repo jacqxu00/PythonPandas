@@ -66,6 +66,8 @@ Constructor: `pandas.DataFrame( data, index, columns, dtype, copy)`
 * `head(n)`: Returns the first n rows.
 * `tail(n)`: Returns the last n rows.
 
+**Note:** all methods are pass by reference
+
 ---
 
 ### Statistical Tools
@@ -80,8 +82,7 @@ Constructor: `pandas.DataFrame( data, index, columns, dtype, copy)`
 * `abs(n)`: Absolute Value
 * `prod(n)`: Product of Values
 
-**Note**: all methods are pass by reference
-n is the axis on which the method operates on, the default is 0.
+**Note:** `n` is the axis on which the method operates on, the default is 0.
 * For a DataFrame:
   * Axis = 0 (Operates vertically)
   * Axis = 0 (Operates horizontally)
