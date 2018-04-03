@@ -13,9 +13,11 @@
   * Analytics
 * To install, using Python package installer, pip:
   * `pip install pandas`
+
 ---
 
 ### Data Structures For Pandas
+Pandas only deals with these three data structures.
 | Series | Data Frames | Panel |
 | --- | --- | --- |
 | 1D array | 2D array | 3D array |
@@ -101,6 +103,7 @@ Constructor: `pandas.DataFrame( data, index, columns, dtype, copy)`
 ---
 
 ### Text Data
+You may also use regular Python's string functions with Pandas text data.
 * `lower()`, `upper()`, `len()`, `swapcase`, `islower()`, `isupper()`, `isnumeric()`
 * `strip()`: Strips whitespace(including ‘\n’) from each string in the Series/index from both the sides.
 * `split(' ')`: Splits each string with the given pattern.
@@ -126,10 +129,11 @@ All NaN values are disregarded in calculation, but this may not be what you want
 ---
 
 ### Sorting
-* sort_index()
+There are two functions in which you can sort data in Pandas.
+* `sort_index()`
   * axis: default is 0
   * ascending: default is True
-* sort_value()
+* `sort_value()`
   * by: which column
   * kind: which sort (mergesort, heapsort and quicksort)
 
