@@ -18,6 +18,7 @@
 
 ### Data Structures For Pandas
 Pandas only deals with these three data structures.
+
 | Series | Data Frames | Panel |
 | --- | --- | --- |
 | 1D array | 2D array | 3D array |
