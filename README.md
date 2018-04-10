@@ -1,5 +1,5 @@
-# Python Pandas By Jacqueline Xu and Kevin Li
-
+# Python Pandas
+## Jacqueline Xu, Kevin Li -- Period 9 SoftDev
 _For full demo code, see repo._
 
 ### What is Python Panda?
